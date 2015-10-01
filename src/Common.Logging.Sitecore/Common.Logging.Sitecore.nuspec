@@ -6,17 +6,16 @@
     <title>$title$</title>
     <authors>$author$</authors>
     <owners>$author$</owners>
-	<licenseUrl>https://github.com/atselevich/common-logging-sitecore/blob/master/LICENSE</licenseUrl>
+    <licenseUrl>https://github.com/atselevich/common-logging-sitecore/blob/master/LICENSE</licenseUrl>
     <projectUrl>https://github.com/atselevich/common-logging-sitecore</projectUrl>
-    <requireLicenseAcceptance>false</requireLicenseAcceptance>    
-    <description>$description$</description>
-	<summary>A Common.Logging adapter for Sitecore.Logging.dll (log4net v1.2.0.30714 aka Beta8) see https://github.com/net-commons/common-logging for the base project.</summary>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Sitecore.Logging.dll hasn't changed since Sitecore 6.6.0 rev 120918, it wraps a very old version of log4net. This adapter allows you to use Common.Logging with Sitecore.Logging. You may have a Sitecore agnostic library that is used in a Sitecore solution. If that library implements the Common.Logging ILog for all logging functionality, then you will be able to patch into Sitecore's logging using this adapter. That means that logging from your Sitecore agnostic assembly will go to the Sitecore log as configured in the web.congfig. ***PLEASE SEE THE PROJECT PAGE FOR CONFIGURATION***</description>
+    <summary>A Common.Logging adapter for Sitecore.Logging.dll (log4net v1.2.0.30714 aka Beta8) see https://github.com/net-commons/common-logging for the base project.</summary>
     <releaseNotes>Testing</releaseNotes>
     <copyright>Copyright 2015</copyright>
-    <tags>Common.Logging.Sitecore</tags>
+    <tags>logging, log, Common.Logging, Sitecore, log4net</tags>
   </metadata>
   <files>
-	  <file src="\web.config.install.xdt" target="content" />
-    <file src="\web.config.uninstall.xdt" target="content" />
+    <file src="\web.config.sample" target="content" />    
   </files>
 </package>

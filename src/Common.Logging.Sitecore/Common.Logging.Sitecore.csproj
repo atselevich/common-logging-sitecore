@@ -53,6 +53,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Adapter\CommonLoggingAppender.cs" />
+    <None Include="Common.Logging.Sitecore.nuspec" />
+    <None Include="web.config.sample" />
     <Compile Include="Extensions\Extensions.cs" />
     <Compile Include="Adapter\SitecoreGlobalVariablesContext.cs" />
     <Compile Include="Adapter\SitecoreLogger.cs" />
@@ -62,7 +64,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-    <None Include="web.config.uninstall.xdt" />
     <None Include="web.config.install.xdt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
