@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+	<licenseUrl>https://github.com/atselevich/common-logging-sitecore/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/atselevich/common-logging-sitecore</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>    
+    <description>$description$</description>
+	<summary>A Common.Logging adapter for Sitecore.Logging.dll (log4net v1.2.0.30714 aka Beta8) see https://github.com/net-commons/common-logging for the base project.</summary>
+    <releaseNotes>Testing</releaseNotes>
+    <copyright>Copyright 2015</copyright>
+    <tags>Common.Logging.Sitecore</tags>
+  </metadata>
+  <files>
+	  <file src="\web.config.install.xdt" target="content" />
+    <file src="\web.config.uninstall.xdt" target="content" />
+  </files>
+</package>

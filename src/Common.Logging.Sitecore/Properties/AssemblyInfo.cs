@@ -6,9 +6,9 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("Common.Logging.Sitecore")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Sitecore.Logging.dll hasn't changed since Sitecore 6.6.0 rev 120918, it wraps a very old version of log4net. This adapter allows you to use Common.Logging with Sitecore.Logging. You may have a Sitecore agnostic library that is used in a Sitecore solution. If that library implements the Common.Logging ILog for all logging functionality, then you will be able to patch into Sitecore's logging using this adapter. That means that logging from your Sitecore agnostic assembly will go to the Sitecore log as configured in the web.congfig.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Alex Tselevich")]
 [assembly: AssemblyProduct("Common.Logging.Sitecore")]
 [assembly: AssemblyCopyright("Copyright ©  2015")]
 [assembly: AssemblyTrademark("")]
@@ -32,5 +32,5 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.0.0.0")]
-[assembly: AssemblyFileVersion("1.0.0.0")]
+[assembly: AssemblyVersion("1.0.0.5")]
+[assembly: AssemblyFileVersion("1.0.0.5")]

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<configuration xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform">
+  <configSections xdt:Transform="InsertIfMissing">
+    <sectionGroup name="common" xdt:Transform="InsertIfMissing">
+      <section name="logging" type="Common.Logging.ConfigurationSectionHandler, Common.Logging" xdt:Transform="InsertIfMissing" />
+    </sectionGroup>
+  </configSections>
+  <common xdt:Transform="InsertIfMissing">
+    <logging xdt:Transform="InsertIfMissing">
+      <factoryAdapter type="Common.Logging.Sitecore.SitecoreLoggerFactoryAdapter, Common.Logging.Sitecore" xdt:Transform="InsertIfMissing">
+        <arg key="configType" value="INLINE" xdt:Transform="InsertIfMissing" />
+      </factoryAdapter>
+    </logging>
+  </common>
+</configuration>
