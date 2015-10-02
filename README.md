@@ -18,4 +18,4 @@ In order for the adapter to function the following configuration needs to be add
 	  </factoryAdapter>
 	</logging>
   </common>
- </configuration>```
+ </configuration>
